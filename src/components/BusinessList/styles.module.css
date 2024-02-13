@@ -1,0 +1,56 @@
+.businessListSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: sticky;
+  z-index: 1;
+  bottom: 0;
+}
+.additionImgStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  margin-left: auto;
+}
+.listSectionStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+}
+.eventSectionStyles,
+.profileSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.eventImgStyles,
+.profileImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.eventTextStyles,
+.profileTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.eventOverRideTextStyles,
+.profileOverRideTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

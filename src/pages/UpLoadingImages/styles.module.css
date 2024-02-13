@@ -1,0 +1,153 @@
+.upLoadingSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  background-color: var(--lightblack);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+.loadingTopSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.overRideStyles {
+  width: 20px;
+  height: 20px;
+}
+.upLoadingSecStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.uploadingTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.imageBorderStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 48px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px dashed var(--lightgray);
+}
+.imageUploadStyles {
+  width: 20px;
+  height: 20px;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gapOneStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.dropFileTextStyles {
+  color: var(--textfive);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
+}
+.maxFileTextStyles {
+  color: var(--textfive);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.browseTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.onUploadingStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.uploadingImgStyles {
+  width: 64px;
+  height: 64px;
+}
+.leftDescpStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.imageNameTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gapTwoStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+.jpgTextStyles,
+.sizeOfImgeStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.dotTextStyles {
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--chinesesilver);
+}
+.crossImgStyles,
+.tickCompletedStyles {
+  width: 20px;
+  height: 20px;
+}
+/* --------------------------------screen styles starts at 1120px-------------------------------- */
+@media screen and (max-width: 1120px) {
+  .upLoadingSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .upLoadingSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

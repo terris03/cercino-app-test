@@ -1,0 +1,179 @@
+.signUpBusinessSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--lightblack);
+  justify-content: space-between;
+  gap: 32px;
+}
+.bannerBusinessSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.headerImgWidthStyles {
+  width: 20px;
+  height: 20px;
+}
+.businessMiddleSection {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.descpBusinessStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.descpOneStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: normal;
+}
+.descpTwoStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.signUpBusinessInputStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.businessMailTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gapOneStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.gapTwoStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.alreadyLoginStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.switchScreenStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.terrmsAndConditions {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.checkBoxStyles {
+  width: 24px;
+  height: 24px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--whitesmoke);
+}
+.checkActiveBoxStyles {
+  width: 24px;
+  height: 24px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--whitesmoke);
+  background-color: var(--white);
+}
+.alreadyAccountStyles,
+.termsTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.bottomSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.nextBtnStyles {
+  color: var(--whitesmoke);
+}
+.orSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.borderOneStyles,
+.borderTwoStyles {
+  background: var(--lightgray);
+  height: 1px;
+  width: 100%;
+}
+.orTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.imageSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+.googleImgStyles,
+.appleImgStyles,
+.faceBookImgStyles {
+  border-radius: 24px;
+  background: #242424;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+}
+.imageWrapperStytles {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --------------------------------screen styles starts at 1120px-------------------------------- */
+@media screen and (max-width: 1120px) {
+  .signUpBusinessSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .signUpBusinessSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

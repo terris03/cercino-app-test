@@ -1,0 +1,206 @@
+.profileSection {
+  width: 390px;
+  height: 100%;
+  max-height: 844px;
+  background-color: var(--lightblack);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+.arrowIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logoutTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nameSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+}
+.nameTextStyles,
+.mailTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+}
+.mailSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.mailImgStyles,
+.favoriteImgStyles,
+.favoriteImgStyles,
+.rightArrowImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.favoriteSectionStyles,
+.historySectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.gapTwoStyles,
+.gapHistoryStyles,
+.profileStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.favoriteTextStyles,
+.historyTextStyles,
+.accountTextStyles,
+.helpCenterTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.favoritePubDetailsStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.favoriteLeftStyles {
+  min-width: 80px;
+  height: 80px;
+}
+.favoriteRightStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.rightTopStyles,
+.rightBottomStyles,
+.historyTopSectionStyles,
+.historyBottomStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightPubName,
+.historyPubName,
+.leftNumTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightPubImgStyles {
+  width: 24px;
+  height: 24px;
+}
+.rightBottomTextStyles,
+.rightDistanceStyles,
+.rightTimeStyles,
+.leftVqtsTextStyles,
+.historyDateTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.historyPubDetailsStyles {
+  display: flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--darkblack);
+  backdrop-filter: blur(11px);
+}
+/* .historyTopSectionStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+.historyTopStyles,
+.historyAreaStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.historyPubImgStyles,
+.rightPubImgStyles {
+  width: 24px;
+  height: 24px;
+}
+.accountSectionStyles,
+.helpCenterSectionStyles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0px;
+}
+.helpCenterbuttonStyles {
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 24px;
+  background: var(
+    --linear,
+    linear-gradient(92deg, #682fa0 -16.84%, #ab18b8 124.69%)
+  );
+  border: none;
+  color: var(--whitesmoke);
+  margin-top: 10px;
+  font-family: 'horizon', sans-serif;
+  font-weight: 900;
+  line-height: normal;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  .profileSection {
+    width: 390px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .profileSection {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

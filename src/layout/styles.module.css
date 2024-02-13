@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'horizon', sans-serif;
+  src: url('../assets/Fonts/horizon.ttf') format('truetype');
+}
+
+/* -------------------------------Intail desktop styles start------------------------------- */
+.layOutSectionStyles {
+  width: 100%;
+  height: 100vh;
+  background: url('../../src/assets/Images/LayoutBgIcon.svg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 32px 120px;
+}
+.insideLayOutSectionStyles {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  gap: 64px;
+}
+
+.layOutLeftStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.bannerHeaderStyles {
+  color: var(--lightgrayishred);
+  font-family: 'horizon', sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 475px;
+  width: 100%;
+}
+.spanyTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: normal;
+}
+.bannerMiddleStyles {
+  color: var(--lightgrayishred);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 475px;
+  width: 100%;
+}
+/* -------------------------------Intail desktop styles end------------------------------- */
+
+@media screen and (max-width: 1120px) {
+  .layOutSectionStyles {
+    width: 100%;
+    height: 100%;
+    padding: 64px 48px;
+  }
+  .insideLayOutSectionStyles {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .layOutLeftStyles {
+    display: none;
+  }
+  .layOutSectionStyles {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .screen_outer {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .screen_outer {
+    width: 390px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.screen_outer{
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  background-color: var(--lightblack);
+}

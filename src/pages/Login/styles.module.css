@@ -1,0 +1,132 @@
+.loginSectionStyles {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: var(--lightblack);
+  padding: 24px;
+  overflow: scroll;
+}
+.bannerSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bannerParaSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.GapSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bannerHeaderStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: normal;
+}
+.bannerDescpStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.formSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.formInputStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.formTextStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.loginTextStyles {
+  text-align: center;
+  margin-top: -2px;
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.alreadyAccTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bottomSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.orSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.borderOneStyles,
+.borderTwoStyles {
+  background: var(--lightgray);
+  height: 1px;
+  width: 100%;
+}
+.orTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.imageSectionStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+.googleImgStyles,
+.appleImgStyles {
+  border-radius: 24px;
+  background: #242424;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .loginSectionStyles {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .loginSectionStyles {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

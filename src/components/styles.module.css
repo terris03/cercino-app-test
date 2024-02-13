@@ -1,0 +1,20 @@
+.map_remove > div > div > div:nth-child(17) {
+  display: none;
+}
+/* .map_remove > div > div > div:nth-child(15) {
+  height: 100%;
+  position: relative;
+  pointer-events: none;
+  padding: 0px;
+  margin: 0px;
+}
+.map_remove > div > div > div:nth-child(15) > div {
+  position: absolute;
+  pointer-events: all;
+  padding: 0px;
+  margin: 0px;
+  left: 0%;
+  top: 50%;
+  transform-origin: center center;
+  transform: translate(-50%, -50%) rotate(90deg);
+} */

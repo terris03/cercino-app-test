@@ -1,0 +1,191 @@
+.listViewOuterSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100dvh;
+  background-color: var(--lightblack);
+  padding: 24px;
+  overflow: hidden;
+  position: relative;
+}
+.listViewSection {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  overflow: scroll;
+  border-radius: 24px 24px 34px 34px;
+}
+.listViewTopStyles {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+  gap: 42px;
+}
+.trendingSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow: hidden;
+}
+.trendingTextStyles,
+.recentTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gapSectionOneStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  overflow-x: scroll;
+}
+.trendingImgSectionStyles {
+  width: fit-content;
+  border-radius: 24px;
+  background: var(--darkblack);
+  backdrop-filter: blur(11px);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.trendingImgStyles {
+  width: 127px;
+  height: 112px;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pubNameSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gapSectionTwoStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.pubNameTextStyles {
+  width: 100%;
+  max-width: 95px;
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 900;
+  line-height: normal;
+}
+.pubLogoStyles,
+.rightPubImgStyles {
+  width: 24px;
+  height: 24px;
+}
+.pubAreaStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.availableTextStyles,
+.rightAvailableTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.areaTextStyles,
+.rightAreaTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.recentStylesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recentPubDetailsStyles {
+  border-radius: 24px;
+  background: var(--darkblack);
+  backdrop-filter: blur(11px);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: space-between;
+}
+.recentLeftStyles {
+  width: 100px;
+  height: 125px;
+}
+.recentRightStyles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recentRightPubTextStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rightTopStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.rightPubName {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightMiddleTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightOpenTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightBottomStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.vqtBtnStyles {
+  margin-top: 10px;
+  padding: 8px 24px;
+}
+
+.weirdscaling {
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow: auto;
+  /* margin-bottom: 406px; */
+}
+
+@media screen and (max-width: 480px) {
+  .weirdscaling {
+    height: 356px;
+    padding-bottom: 118px;
+  }
+}

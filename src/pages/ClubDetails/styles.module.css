@@ -1,0 +1,325 @@
+.clubDetailsSection {
+  width: 390px;
+  height: 100%;
+  max-height: 844px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: var(--lightblack);
+  backdrop-filter: blur(11px);
+  background-image: url(../../assets/Images/ClubDetailsBgIcon.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  /* background: lightgray 50% / cover no-repeat, rgba(217, 217, 217, 0.55); */
+}
+.clubTopSectionStyles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 187px;
+}
+.arrowIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.clubDetailsStyles {
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.gapOneStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.detailsTopStyles,
+.detailsMiddleStyles,
+.detailsBottomStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.liveBandTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: normal;
+}
+.liveLogoStyles {
+  width: 24px;
+  height: 24px;
+}
+.startTextStyles,
+.distanceTextStyles,
+.availableTextStyles,
+.availableAreaStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.clubBottomStyles {
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+.venueSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.gapTwoStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.venueTextStyles {
+  color: var(--lightsaturated);
+  text-align: center;
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.venuImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.venuePubDetailsStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.veneLeftStyles {
+  min-width: 93px;
+  height: 116px;
+}
+.venueRightStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.rightTopStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.rightPubName {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+}
+.rightPubImgStyles {
+  width: 24px;
+  height: 24px;
+}
+.rightMiddleStyles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightMiddleTextStyles,
+.rightDistanceStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightOpenTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightBottomTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageSectionStyles {
+  padding: 24px 0px;
+}
+.gapThreeStyles {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: var(--lightblack); /* Set the background color */
+  opacity: 0.9; /* Adjust the opacity value (0.7) to control transparency */}
+.ageTextSectionStyles,
+.dressCodeTextSectionStyles,
+.clubSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.ageTextStyles,
+.dressCodeTextStyles,
+.clubTextStyles {
+  color: var(--lightsaturated);
+  text-align: center;
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageNumStyles,
+.dressTypeStyles,
+.clubTypeStyles {
+  color: var(--white);
+  text-align: center;
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageSpanStyles {
+  width: 1px;
+  background: var(--lightsaturatedtwo);
+}
+.imageSectionStyles,
+.followUsSectionStyles {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+  gap: 24px;
+  overflow: hidden;
+}
+.imageTextStyles,
+.tagTextStyles,
+.descriptionTextStyles,
+.followUsTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.imgaeGapStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  overflow: scroll;
+}
+.pubImageStyles {
+  min-width: 138px;
+  height: 130px;
+  border-radius: 16px;
+}
+.tagsSectionStyles,
+.descriptionSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.tagsTopStyles,
+.descriptionTopStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tagImgStyles,
+.descriptionImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.tagsBottomStyles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tagTypeStyles {
+  display: flex;
+  padding: 10px 16px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: var(--darkblackTen);
+  backdrop-filter: blur(11px);
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.socialMediaStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+.facebookImageStyles,
+.instaImageStyles {
+  padding: 16px;
+  border-radius: 24px;
+  background: var(--darkblack);
+}
+.pubInformationTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  .clubDetailsSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .clubDetailsSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

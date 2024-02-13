@@ -1,0 +1,356 @@
+.eventsDetailsSection {
+  width: 390px;
+  height: 100%;
+  max-height: 844px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  gap: 16px;
+  padding: 24px;
+  background-color: var(--lightblack);
+  backdrop-filter: blur(11px);
+  background-image: url(../../assets/Images/EventDetailsBgIcon.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+.arrowStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+.arrowIconStyles,
+.dottedIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.clubTopSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0px;
+  margin-top: 138px;
+}
+.pubNameTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 900;
+  line-height: normal;
+}
+.ticketStyles,
+.timeAndDateStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticketReleaseTextStyles {
+  color: var(--lightsaturated);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ticketsQuantity {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.timeStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dateStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+.hoursTextStyles,
+.yardsTextStyles,
+.singerTextStyles,
+.typeTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.timeTextStyles,
+.dateTextStyles {
+  color: var(--texttweleve);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.releasedStyles,
+.performanceStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.releasedTextStyles,
+.imageTextStyles,
+.tagTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gapStylesOne {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.gapStylesTwo {
+  display: flex;
+  padding: 16px 8px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: var(--textthirteen);
+  width: 100%;
+}
+.gapStylesThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.priceTextStyles,
+.numTextStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: normal;
+}
+.revenueKrStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+}
+.soldTextStyles,
+.revenueTextStyles {
+  color: var(--textsix);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.performanceTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.performanceGapStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.performanceImgStyles {
+  width: 163px;
+  height: 128px;
+}
+.performedStyles,
+.performedTypeStyles {
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.performedTextStyles,
+.performedTypeTextStyles {
+  color: var(--dimgray);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageSectionStyles {
+  padding: 24px 0px;
+}
+.gapThreeStyles {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--darkblack);
+}
+.ageTextSectionStyles,
+.dressCodeTextSectionStyles,
+.clubSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.ageTextStyles,
+.dressCodeTextStyles,
+.clubTextStyles {
+  color: var(--lightsaturated);
+  text-align: center;
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageNumStyles,
+.dressTypeStyles,
+.clubTypeStyles {
+  color: var(--white);
+  text-align: center;
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageSpanStyles {
+  width: 1px;
+  background: var(--lightsaturatedtwo);
+}
+.imageSectionStyles,
+.locationStyles {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+  gap: 24px;
+  /* overflow: hidden; */
+}
+
+.imgaeGapStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  overflow: scroll;
+}
+.pubImageStyles {
+  min-width: 138px;
+  height: 130px;
+  border-radius: 16px;
+}
+
+.tagsSectionStyles,
+.descriptionSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.descriptionTextStyles,
+.locationTextStyles {
+  color: var(--textfourteen);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.pubInformationTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.tagsTopStyles,
+.descriptionTopStyles,
+.locationTopStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tagImgStyles,
+.descriptionImgStyles,
+.locationImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.tagsBottomStyles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tagTypeStyles {
+  display: flex;
+  padding: 10px 16px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: var(--darkblackTen);
+  backdrop-filter: blur(11px);
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.streetTextStyles {
+  color: var(--textsixteen);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  .eventsDetailsSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .eventsDetailsSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

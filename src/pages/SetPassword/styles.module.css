@@ -1,0 +1,54 @@
+.setPasswordSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--lightblack);
+  padding: 24px;
+}
+.headerGapStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.setPasswordStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.setNewPassWordStyles,
+.confirmPassWordStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.setNewPassWordTextStyles,
+.confirmPassWordTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  .setPasswordSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .setPasswordSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

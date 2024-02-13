@@ -1,0 +1,228 @@
+.myVqtsSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  background-color: var(--lightblack);
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(12px);
+}
+.vqtsTopSectionStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 90px;
+  padding: 0px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.arrowIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+}
+.vqtsTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.onGoingSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 24px 24px 12px;
+}
+.upComingSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.onGoingTextStyles,
+.upComingTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.onGoingDetailsStyles,
+.upComingDetailsStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.onGoingLeftStyles,
+.upComingLeftStyles {
+  min-width: 93px;
+  height: 116px;
+}
+.onGoingRightStyles,
+.upComingRightStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.onGoingTopStyles,
+.rightMiddleStyles,
+.rightBottomStyles,
+.upComingTopStyles,
+.upComingBottomStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightPubName,
+.upComingPubName {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+}
+.rightDottedImgStyles,
+.upComingDottedImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.upComingMiddleStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+  align-items: center;
+}
+.rightMiddleTextStyles,
+.rightDistanceStyles,
+.bottomStatusTextStyles,
+.upComingMiddleTextStyles,
+.upComingDistanceStyles,
+.countDownTextStyles,
+.minutesTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.bottomCompletedTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rightOpenTextStyles,
+.upComingOpenTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightBottomTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.feedbackStyles {
+  color: var(--whitesmoke);
+}
+.crossIMgStyles {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+.modelGapStyles {
+  display: flex;
+  flex-direction: column;
+}
+.modelSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.ratingStarIconStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.rateUsTextStyles,
+.leaveUsTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+}
+.modelSectionStyles2 {
+  padding: 16px;
+}
+.customStarStyles {
+  margin-right: 24px;
+}
+.textAreaStyles {
+  padding: 16px;
+  height: 121px;
+  border-radius: 8px;
+  background: var(--gray14);
+  border: none;
+  outline: none;
+  resize: none;
+  color: var(--dimgray);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.weirdscaling {
+  height: 480px;
+  /* margin-bottom: 406px; */
+}
+
+@media screen and (max-width: 1120px) {
+  .myVqtsSection {
+    width: 390px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .myVqtsSection {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100%;
+  }
+  .customStarStyles {
+    margin-right: 2px;
+  }
+  .weirdscaling {
+    height: 294px;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

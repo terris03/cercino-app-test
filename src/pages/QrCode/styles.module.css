@@ -1,0 +1,177 @@
+.qrSection {
+  padding: 24px;
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  background: var(--lightblack);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.paymentTopSectionStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.arrowIconStyles,
+.crossIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblack);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+}
+.qrSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--white);
+  padding: 48px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+.qrImgStyles {
+  width: 200px;
+  height: 200px;
+}
+.dottedLineStyles {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 1px;
+}
+.dottedLineStyles:before {
+  content: '';
+  position: absolute;
+  border: 10px dashed var(--textone);
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+}
+
+.gapOneStyles {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ecllipseTwoStyles {
+  position: absolute;
+  min-width: 24px;
+  min-height: 24px;
+  background-color: var(--lightblack);
+  border-radius: 24px;
+  right: 12px;
+}
+.ecllipseOneStyles {
+  min-width: 24px;
+  min-height: 24px;
+  background-color: var(--lightblack);
+  border-radius: 24px;
+  position: absolute;
+  left: 12px;
+}
+.eventPriceSectionStyles,
+.venueSectionStyles,
+.timeSectionStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.eventLeftStyles,
+.eventRightStyles,
+.venueLeftStyles,
+.venueRightStyles,
+.timeLeftStyles,
+.timeRightStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.eventTextStyles,
+.venueTextStyles,
+.entryTextsStyles,
+.locationTextsStyles {
+  color: var(--texttwo);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.priceTextStyles,
+.noOfVqtsTextStyles,
+.entryDateTextStyles {
+  color: var(--texttwo);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: end;
+}
+
+.eventPubStyles,
+.venuePubStyles,
+.timePubStyles,
+.loactionStreetPubStyles {
+  color: var(--dark-text, var(--textthree));
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.pubTotalPriceStyles,
+.noOfVqtStrengthStyles,
+.totalDateStyles {
+  color: var(--dark-text, var(--textthree));
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: end;
+}
+.locationSectionStyles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and (max-width: 1120px) {
+  .qrSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .qrSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'horizon';
+  src: url('./assets/Fonts/horizon.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'horizon', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  scrollbar-width: none;
+}
+.scrollhost::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollhost ::-moz-scrollbar {
+  display: none;
+}
+
+.scrollhost {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-color: transparent transparent; /*just hides the scrollbar for firefox */
+}
+:root {
+  --white: #fff;
+  --black: #000;
+  --layoutbg: #1d1a1f;
+  --whitesmoke: #f1f1f1;
+  --lightwhite: #fffbfb;
+  --lightgrayishred: #ebe9e9;
+  --gray92: #ebebeb;
+  --violet: #c36eff;
+  --lightblack: #191919;
+  --darkblack: rgba(195, 110, 255, 0.05);
+  --darkblackTen: rgba(195, 110, 255, 0.1);
+  --lightsaturated: rgba(255, 255, 255, 0.6);
+  --lightsaturatedtwo: rgba(255, 255, 255, 0.2);
+  --lightsaturatedfive: rgba(255, 255, 255, 0.05);
+  --chinesesilver: #ccc;
+  --gray14: #242424;
+  --dimgray: #636363;
+  --lightgray: #d9d9d9;
+  --quicksilver: #a7a7a7;
+  --gray97: #f7f7f7;
+  --darkgray: #3e3e3e;
+  --americansilver: #cfcfcf;
+  --textone: #a6a5a5;
+  --texttwo: rgba(24, 6, 37, 0.6);
+  --textthree: #180625;
+  --textfour: #f5f5f5;
+  --textfive: #9d9d9d;
+  --textsix: #acacac;
+  --textseven: #fffafa;
+  --texteight: #3d3c3c;
+  --textnine: #1e1e1e;
+  --textten: #b4b4b4;
+  --texteleven: rgba(252, 252, 252, 0.43);
+  --texttweleve: #909090;
+  --textthirteen: #201f1f;
+  --textfourteen: #b8b8b8;
+  --textfifteen: #e1e0e0;
+  --textsixteen: #fffefe;
+  --texteighteen: #c9c9c9;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,76 @@
+
+.homeSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  background-color: var(--lightblack);
+}
+.insideStyles {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 24px;
+  z-index: 1000;
+  pointer-events: none;
+}
+.imageWidthStyles {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profileMainStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.listSectionStyles {
+  border-radius: 34px;
+  background: rgba(195, 110, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-left: auto;
+}
+.listImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.listViewTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  .homeSection {
+    width: 390px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .homeSection {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'horizon', sans-serif;
+  src: url('../../assets/Fonts/horizon.ttf') format('truetype');
+}
+
+.btnStyles {
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 24px;
+  background: var(
+    --linear,
+    linear-gradient(92deg, #682fa0 -16.84%, #ab18b8 124.69%)
+  );
+  border: none;
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+  cursor: pointer;
+}
+.imgStyles {
+  width: 100%;
+  height: 100%;
+}
+.imageWrapperStyle {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}

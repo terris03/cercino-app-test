@@ -1,0 +1,78 @@
+.introScreenStyles {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  background-color: var(--lightblack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introTextStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.introHeaderStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: normal;
+}
+.introDescpStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.center {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center_loading {
+  width: 150px;
+  height: 100px;
+  justify-content: space-evenly
+}
+.center_loading_inner {
+ background-color: white;
+ width: calc(30px*0.75);
+ height: var(--size);
+ animation: loading 1000ms infinite;
+ animation-delay: calc(150ms*var(--index));
+}
+@keyframes loading {
+  from{
+    transform: scaleY(100%);
+  }
+  50%{
+    transform: scaleY(140%);
+  }
+  to{
+    transform: scaleY(100%);
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .introScreenStyles {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .introScreenStyles {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

@@ -1,0 +1,318 @@
+.businessProfileSection {
+  width: 390px;
+  height: 100%;
+  max-height: 844px;
+  background-color: var(--lightblack);
+  overflow: hidden;
+  padding: 24px;
+}
+.insideStyles {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+.topStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.arrowImgStyles,
+.dottedImgStyles,
+.plusIconStyles {
+  width: 52px;
+  height: 52px;
+  border-radius: 34px;
+  background: var(--darkblackTen);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+}
+.aboutProfileSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.pubImageStyles {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+.imageWidthStyles {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+.aboutPubDetails {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.pubName {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+}
+.pubReviewsStyles,
+.locationStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.starRatingStyles {
+  width: 24px;
+  height: 24px;
+}
+.locationImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ratingTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ratingSpanTextStyles,
+.locationTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.imageAndDetailsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dividerStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px 0px;
+}
+.textStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.imageTextStyles {
+  color: var(--violet);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.detailsTextStyles {
+  color: var(--lightsaturated);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.divderSection {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  padding: 10px 0px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.dividerLineStyles {
+  width: 100%;
+  height: 2px;
+  background-color: var(--texteight);
+}
+.dividerColorStyles {
+  background-color: var(--violet);
+}
+.imagesSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.imageGridStyles {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 4px;
+}
+.imageIconStyles {
+  max-width: 169px;
+  height: 130px;
+}
+.imageRadiusWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.addNewImageStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.addNewTextStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.detailsSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rulesStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 24px 0px;
+  gap: 24px;
+}
+.ageTextSectionStyles,
+.dressCodeTextSectionStyles,
+.clubSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.ageTextStyles,
+.dressCodeTextStyles,
+.clubTextStyles,
+.pubInformationTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+.ageNumStyles,
+.dressTypeStyles,
+.clubTypeStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tagsSectionStyles,
+.descriptionSectionStyles,
+.reviewSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.tagsTopStyles,
+.descriptionTopStyles,
+.reviewTopStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tagTextStyles,
+.descriptionTextStyles,
+.reviewTextStyles,
+.followUsTextStyles {
+  color: var(--gray97);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.tagImgStyles,
+.descriptionImgStyles,
+.reviewImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.tagsBottomStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.tagTypeStyles {
+  display: flex;
+  padding: 10px 16px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--darkblack);
+  border-radius: 24px;
+  backdrop-filter: blur(11px);
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  word-break: break-all;
+  white-space: nowrap;
+}
+
+.followUsSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+}
+.socialMediaStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+.facebookImageStyles,
+.instaImageStyles {
+  padding: 16px;
+  border-radius: 24px;
+  background: var(--darkblack);
+}
+
+@media screen and (max-width: 1120px) {
+  .businessProfileSection {
+    width: 390px;
+    min-height: 844px;
+    height: 100vh;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .businessProfileSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */

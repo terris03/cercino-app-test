@@ -1,0 +1,14 @@
+{
+	"editor.suggest.showWords": false,
+	"task.allowAutomaticTasks": "on",
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.printWidth": 150,
+	"prettier.arrowParens": "always",
+	"prettier.singleQuote": false,
+	"prettier.bracketSameLine": true,
+	"prettier.quoteProps": "consistent",
+	"editor.stickyScroll.enabled": true,
+	"editor.stickyTabStops": true,
+}

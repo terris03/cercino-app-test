@@ -1,0 +1,58 @@
+.profileMainStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 1;
+  bottom: 0px;
+  position: sticky;
+}
+.listSectionStyles {
+  border-radius: 34px;
+  background: rgba(195, 110, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-left: auto;
+  pointer-events: auto;
+}
+.listImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.listViewTextStyles {
+  color: var(--white);
+  font-family: 'horizon', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bottomListSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 34px;
+  background: var(--darkblackTen);
+  backdrop-filter: blur(11px);
+}
+.exploreSectionStyles,
+.scannerSectionStyles,
+.profileSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  pointer-events: auto;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.imageWidthStyles {
+  width: 100%;
+  height: 100%;
+}

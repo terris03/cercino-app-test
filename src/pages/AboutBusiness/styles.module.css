@@ -1,0 +1,76 @@
+.aboutBusinessSection {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: var(--lightblack);
+  padding: 24px;
+}
+.overRideStyles {
+  width: 20px;
+  height: 20px;
+}
+.aboutTopSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.AboutHeaderTextStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: normal;
+}
+.AboutDe3scpTextStyles {
+  color: var(--whitesmoke);
+  font-family: 'horizon', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.aboutInputSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.tellUsTextStyles,
+.describeTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.textAreaStyles {
+  padding: 16px;
+  height: 110px;
+  border-radius: 8px;
+  background: var(--gray14);
+  border: none;
+  outline: none;
+  resize: none;
+  color: var(--dimgray);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  .aboutBusinessSection {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutBusinessSection {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,79 @@
+.tagsSectionStyles {
+  width: 390px;
+  max-height: 844px;
+  height: 100%;
+  background-color: var(--lightblack);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 64px; */
+}
+.overRideStyles {
+  width: 20px;
+  height: 20px;
+}
+.tagTopSectionStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.linkStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.instaLinksStyles,
+.locationStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.instaTextStyles,
+.locationTextStyles,
+.locateMapTextStyles {
+  color: var(--chinesesilver);
+  font-family: 'horizon', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gapOneStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.gapTwoStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mapImgStyles {
+  width: 20px;
+  height: 20px;
+}
+.imageWidth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1120px) {
+  .tagsSectionStyles {
+    width: 390px;
+    min-height: 844px;
+  }
+}
+
+/* --------------------------------screen styles ends at 1120px-------------------------------- */
+
+/* --------------------------------screen styles starts at 480px-------------------------------- */
+@media screen and (max-width: 480px) {
+  .tagsSectionStyles {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+  }
+}
+/* --------------------------------screen styles ends at 480px-------------------------------- */
